@@ -49,8 +49,9 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${Versions['loader_version']}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${Versions['fabric_version']}"
     modImplementation "com.terraformersmc:modmenu:${Versions['modmenu_version']}"
+    //modImplementation files('GBfabrictools-1.4+1.19.4.jar');
     modImplementation "de.guntram.mcmod:GBfabrictools:${Versions['gbfabrictools_version']}"
-    include    "de.guntram.mcmod:GBfabrictools:${Versions['gbfabrictools_version']}"    
+    include    "de.guntram.mcmod:GBfabrictools:${Versions['gbfabrictools_version']}"
 }
 
 java {
